@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage should test with snapshot 1`] = `
+<div>
+  <div
+    class="loginPage"
+  >
+    <h1
+      class="loginPage-title"
+    >
+      Log in
+    </h1>
+    <form
+      class="loginForm"
+    >
+      <div
+        class="formField loginForm-field"
+      >
+        <label
+          class="formField-label"
+        >
+          <span>
+            Email
+          </span>
+          <input
+            autocomplete="off"
+            class="formField-input"
+            name="email"
+            type="text"
+            value=""
+          />
+        </label>
+      </div>
+      <div
+        class="formField loginForm-field"
+      >
+        <label
+          class="formField-label"
+        >
+          <span>
+            Password
+          </span>
+          <input
+            autocomplete="off"
+            class="formField-input"
+            name="password"
+            type="password"
+            value=""
+          />
+        </label>
+      </div>
+      <input
+        label="Remember"
+        name="remember"
+        type="checkbox"
+        value="remember"
+      />
+              Remember me?
+      <button
+        class="login-submit"
+        disabled=""
+        type="submit"
+      >
+        Log in
+      </button>
+    </form>
+  </div>
+</div>
+`;
